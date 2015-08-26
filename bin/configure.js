@@ -3,4 +3,3 @@
 var configurer = require('../lib/configurer');
 
 configurer.prompt();
-

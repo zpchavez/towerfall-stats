@@ -4,7 +4,7 @@
   "description": "Retrieve TowerFall session stats",
   "main": "index.js",
   "bin": {
-    "tf-stats-config": "./bin/configure.js",
+    "tf-stats-config": "./bin/configure.js"
   },
   "dependencies": {
     "os-homedir"     : "v1.0.1",

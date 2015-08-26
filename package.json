@@ -1,0 +1,15 @@
+{
+  "name": "towerfall-stats",
+  "version": "0.0.0",
+  "description": "Retrieve TowerFall session stats",
+  "main": "index.js",
+  "dependencies": {
+    "os-homedir" : "v1.0.1",
+    "prompt"     : "v0.2.14"
+  },
+  "scripts": {
+    "configure": "node ./bin/configure.js"
+  },
+  "author": "Zachary Chavez",
+  "license": "ISC"
+}

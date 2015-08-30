@@ -1,17 +1,17 @@
 {
   "name": "towerfall-stats",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Retrieve TowerFall session stats",
   "main": "index.js",
   "bin": {
     "tf-stats-config": "./bin/configure.js"
   },
   "dependencies": {
-    "os-homedir"     : "v1.0.1",
-    "prompt"         : "v0.2.14",
-    "lodash.isequal" : "v3.0.4",
-    "lodash.sortby"  : "v3.1.5",
-    "xml2js"         : "v0.4.10"
+    "os-homedir": "v1.0.1",
+    "prompt": "v0.2.14",
+    "lodash.isequal": "v3.0.4",
+    "lodash.sortby": "v3.1.5",
+    "xml2js": "v0.4.10"
   },
   "scripts": {
     "configure": "node ./bin/configure.js"

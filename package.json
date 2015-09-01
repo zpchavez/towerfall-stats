@@ -14,7 +14,8 @@
     "xml2js": "v0.4.10"
   },
   "scripts": {
-    "configure": "node ./bin/configure.js"
+    "configure": "node ./bin/configure.js",
+    "watch"    : "node ./bin/watch.js"
   },
   "author": "Zachary Chavez",
   "license": "ISC"

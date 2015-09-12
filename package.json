@@ -4,6 +4,7 @@
   "description": "Retrieve TowerFall session stats",
   "main": "index.js",
   "bin": {
+    "tf-stats-watch": "./bin/watch.js",
     "tf-stats-config": "./bin/configure.js"
   },
   "dependencies": {

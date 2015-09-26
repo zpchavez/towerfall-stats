@@ -1,6 +1,6 @@
 {
   "name": "towerfall-stats",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Retrieve TowerFall session stats",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "configure": "node ./bin/configure.js",
-    "watch"    : "node ./bin/watch.js"
+    "watch": "node ./bin/watch.js"
   },
   "author": "Zachary Chavez",
   "license": "ISC"

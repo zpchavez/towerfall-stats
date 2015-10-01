@@ -7,6 +7,10 @@
     "tf-stats-watch": "./bin/watch.js",
     "tf-stats-config": "./bin/configure.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zpchavez/towerfall-stats.git"
+  },
   "dependencies": {
     "os-homedir": "v1.0.1",
     "prompt": "v0.2.14",

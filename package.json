@@ -12,6 +12,7 @@
     "url": "https://github.com/zpchavez/towerfall-stats.git"
   },
   "dependencies": {
+    "chokidar"  : "v1.1.0",
     "os-homedir": "v1.0.1",
     "prompt": "v0.2.14",
     "lodash.defaults": "v3.1.2",

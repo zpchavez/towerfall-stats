@@ -5,23 +5,28 @@
   "main": "index.js",
   "bin": {
     "tf-stats-watch": "./bin/watch.js",
-    "tf-stats-config": "./bin/configure.js"
+    "tf-stats-config": "./bin/configure.js",
+    "tf-stats-db-config": "./bin/db-configure.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/zpchavez/towerfall-stats.git"
   },
   "dependencies": {
-    "chokidar"  : "v1.1.0",
-    "os-homedir": "v1.0.1",
-    "prompt": "v0.2.14",
-    "lodash.defaults": "v3.1.2",
-    "lodash.isequal": "v3.0.4",
-    "lodash.sortby": "v3.1.5",
-    "xml2js": "v0.4.10"
+    "chokidar": "1.1.0",
+    "knex": "0.8.6",
+    "lodash.defaults": "3.1.2",
+    "lodash.isequal": "3.0.4",
+    "lodash.sortby": "3.1.5",
+    "os-homedir": "1.0.1",
+    "prompt": "0.2.14",
+    "sqlite3": "3.1.0",
+    "xml2js": "0.4.10"
   },
   "scripts": {
     "configure": "node ./bin/configure.js",
+    "db-configure": "node ./bin/db-configure.js",
+    "db-test" : "node ./bin/db-test.js",
     "watch": "node ./bin/watch.js"
   },
   "author": "Zachary Chavez",

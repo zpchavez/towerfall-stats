@@ -28,7 +28,6 @@
   "scripts": {
     "configure": "node ./bin/configure.js",
     "db-configure": "node ./bin/db-configure.js",
-    "db-test" : "node ./bin/db-test.js",
     "watch": "node ./bin/watch.js"
   },
   "author": "Zachary Chavez",

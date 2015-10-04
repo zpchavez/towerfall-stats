@@ -17,6 +17,7 @@ if (saveToDb) {
     };
 }
 
+console.log('Watching for stat updates');
 if (saveToFile) {
     fileHandler.watchForUpdatesAndSaveToFile(append, callback);
 } else {

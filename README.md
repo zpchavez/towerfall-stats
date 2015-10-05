@@ -73,5 +73,5 @@ The command accepts three options (note if running via `npm run` you must have `
 and the options).
 
 * `-f` or `--save-to-file` - Script will save match data and accumulated summary data to a file
-* `-d` or `--save-to-db`   - Script will save match data to the DB
+* `-d` or `--save-to-db`   - Script will save match data to the database
 * `-a` or `--append`       - If using the `-f` option, will append to the existing file instead of overwriting it

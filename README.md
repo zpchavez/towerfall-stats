@@ -1,6 +1,6 @@
 ## TowerFall Stats
 
-A library for retrieving TowerFall session stats.
+A library for retrieving TowerFall session stats and saving them to disk and/or a database.
 
 If you want to post stats to Slack, there's a [package](https://github.com/zpchavez/towerfall-slack) for that.
 
@@ -11,7 +11,13 @@ location, but if you need to change it you can run `tf-stats-config` for a globa
 install or `npm run configure` for a local install. This will save the config to a file
 in your home directory called `towerfall-stats-config.json`.
 
+If you wish to save match stats to a database, you must run `tf-stats-db-config`
+for a global install or `npm run db-configure` for a local install. Supported
+databases are MySQL, MariaDB, PostgreSQL, and SQLite.
+
 ## Use
+
+### Library
 
 Towerfall-stats works by watching for changes to the tf_saveData file.
 The `watchForUpdates` method will start watching for changes. It accepts a
@@ -58,3 +64,14 @@ This will return an object that looks like this:
 
 In the example above, blue took first place, cyan and white were tied for second,
 and red came in last.
+
+### Watch script
+
+If creating a stats file or writing stats to a database is all you need to do, you
+can use the watch command (`tf-stats-watch` globally or `npm run watch` locally).
+The command accepts three options (note if running via `npm run` you must have ` -- ` between the command
+and the options).
+
+* `-f` or `--save-to-file` - Script will save match data and accumulated summary data to a file
+* `-d` or `--save-to-db`   - Script will save match data to the DB
+* `-a` or `--append`       - If using the `-f` option, will append to the existing file instead of overwriting it

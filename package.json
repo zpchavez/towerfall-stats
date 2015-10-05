@@ -1,7 +1,7 @@
 {
   "name": "towerfall-stats",
   "version": "0.2.0",
-  "description": "Retrieve TowerFall session stats",
+  "description": "Retrieve TowerFall session stats and save them to disk and/or a database",
   "main": "index.js",
   "bin": {
     "tf-stats-watch": "./bin/watch.js",

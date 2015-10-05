@@ -72,6 +72,6 @@ can use the watch command (`tf-stats-watch` globally or `npm run watch` locally)
 The command accepts three options (note if running via `npm run` you must have ` -- ` between the command
 and the options).
 
-* `-f` or `--save-to-file` - Script will save match data and accumulated summary data to a file
-* `-d` or `--save-to-db`   - Script will save match data to the database
-* `-a` or `--append`       - If using the `-f` option, will append to the existing file instead of overwriting it
+* `-f` or `--save-to-file` - Save match data and accumulated summary data to a file
+* `-d` or `--save-to-db`   - Save match data to the database
+* `-a` or `--append`       - If using the `-f` option, append to the existing file instead of overwriting it

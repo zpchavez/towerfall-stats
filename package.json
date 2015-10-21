@@ -1,6 +1,6 @@
 {
   "name": "towerfall-stats",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Retrieve TowerFall session stats and save them to disk and/or a database",
   "main": "index.js",
   "bin": {

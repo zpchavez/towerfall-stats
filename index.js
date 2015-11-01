@@ -5,6 +5,8 @@ module.exports = {
     config         : require('./lib/config'),
     configDefaults : require('./lib/config-defaults.js'),
     configurer     : require('./lib/configurer'),
+    dbConfig       : require('./lib/db-config'),
+    dbKnex         : require('./lib/db-knex'),
     fileHandler    : require('./lib/file-handler'),
     parser         : require('./lib/parser')
 };

@@ -34,7 +34,7 @@ if (saveToApi) {
                 body: JSON.stringify(matchStats)
             }
         ).then(response => {
-            if (response.status >= 400) {
+            if (! response.ok) {
                 response.json().then(json => {
                     console.log(json);
                 });

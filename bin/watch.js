@@ -25,7 +25,7 @@ if (saveToApi) {
         delete matchStats.kdr;
         matchStats.api_token = config.apiKey;
         fetch(
-            'http://api.towerfall-tracker.vm/matches',
+            config.apiUrl + '/matches',
             {
                 method: 'POST',
                 headers: {
